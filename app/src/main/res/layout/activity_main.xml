@@ -8,8 +8,6 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-
- <!--
     <include
         android:id="@+id/app_bar_main"
         layout="@layout/app_bar_main"
@@ -24,11 +22,5 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
-        -->
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
