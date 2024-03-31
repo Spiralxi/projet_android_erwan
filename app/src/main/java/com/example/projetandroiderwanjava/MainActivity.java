@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 String source = editTextSource.getText().toString();
                 String destination = editTextDestination.getText().toString();
                 if(source.isEmpty() && destination.isEmpty()){
-                    Toast.makeText(getApplicationContext(), "Enter both source and destation",
+                    Toast.makeText(getApplicationContext(), "Veuillez préciser un depart et une arrivée",
                     Toast.LENGTH_LONG).show();
                 }
                 else {
@@ -59,10 +59,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
 
-//        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-//                .findFragmentById(R.id.map);
-//        assert mapFragment != null;
-//        mapFragment.getMapAsync(this);
 
 
  /*       setSupportActionBar(binding.appBarMain.toolbar);
