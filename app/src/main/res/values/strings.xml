@@ -11,4 +11,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="MAPS_API_KEY">AIzaSyDmnT8UhWMY4_odIKI9E_epYp9vnG2cKBo</string>
+    <string name="open_navigation">Open Navigation</string>
+    <string name="enter_destination_location">Enter destination location</string>
+    <string name="enter_source_location">Enter source location</string>
 </resources>
